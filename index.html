@@ -1,48 +1,780 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#24131b">
-<title>کارت دیجیتال وکیل پایه یک دادگستری</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#24131b">
+<title>کارت دیجیتال آنا گلریز</title>
+
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap');
-:root{--wine:#351b27;--wine2:#24131b;--rose:#8f5d69;--gold:#c8a66a;--gold-light:#ead7a7;--cream:#f7f0e7;--muted:#c9b9b7;--line:rgba(200,166,106,.35)}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;background:var(--wine2);color:var(--cream);font-family:Vazirmatn,Tahoma,sans-serif;overflow-x:hidden}
-body:before{content:"";position:fixed;inset:0;z-index:-2;background:radial-gradient(ellipse at 50% 0%,#67404b 0%,transparent 43%),linear-gradient(145deg,#201119,#38202b 55%,#1d1118)}
-body:after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.13;background-image:radial-gradient(var(--gold) .6px,transparent .6px);background-size:18px 18px}
-.wrap{width:min(100% - 28px,470px);margin:0 auto;padding:28px 0 36px}.topline{display:flex;align-items:center;justify-content:space-between;color:var(--gold-light);font-size:10px;letter-spacing:1.5px;margin-bottom:25px}.seal-mini{display:flex;align-items:center;gap:8px}.dot{width:6px;height:6px;background:#c4aa78;border-radius:50%;box-shadow:0 0 9px #c4aa78}
-.lang-switch{display:flex;gap:6px;align-items:center}.lang-switch button{font:inherit;font-size:10px;color:var(--gold-light);background:#ffffff08;border:1px solid var(--line);border-radius:20px;padding:5px 10px;cursor:pointer}.lang-switch button.active{background:var(--gold);color:var(--wine2)}.profile-wrap{width:136px;height:136px;margin:2px auto 22px;position:relative;border-radius:50%;padding:5px;background:linear-gradient(135deg,#fff0c7 0%,#c8a66a 28%,#7b572c 52%,#ead7a7 76%,#c8a66a 100%);box-shadow:0 0 0 2px #c8a66a55,0 0 0 8px #c8a66a12,0 0 32px #c8a66a30}.profile-photo{display:block;width:100%;height:100%;border-radius:50%;object-fit:cover;border:2px solid #38202b;padding:3px;background:#2b1821;box-shadow:inset 0 0 0 1px var(--gold-light)}.profile-edit{position:absolute;bottom:1px;right:1px;width:32px;height:32px;border-radius:50%;border:1px solid var(--gold-light);background:var(--gold);color:var(--wine2);cursor:pointer;font-size:17px}.hero{text-align:center;padding:24px 22px 28px;border:1px solid var(--line);border-radius:180px 180px 24px 24px;background:linear-gradient(160deg,rgba(255,255,255,.065),rgba(255,255,255,.015));position:relative;box-shadow:0 24px 70px #130b10aa,inset 0 0 35px #e7c98a08;overflow:hidden}.hero:before{content:"";position:absolute;inset:9px;border:1px solid rgba(200,166,106,.18);border-radius:170px 170px 18px 18px;pointer-events:none}.emblem{width:112px;height:112px;margin:2px auto 18px;display:grid;place-items:center;border:1px solid var(--gold);border-radius:50%;background:radial-gradient(circle,#62404a,#2b1821 70%);box-shadow:0 0 0 7px #c8a66a0b,0 0 35px #c8a66a12;color:var(--gold-light)}.emblem svg{width:75px;height:75px}.eyebrow{font-size:11px;color:var(--gold-light);letter-spacing:2px;margin:0 0 12px}.name{font-size:30px;line-height:1.5;font-weight:700;margin:0;color:#fff8ef}.name span{color:var(--gold-light)}.role{font-size:14px;color:#e2cfae;margin:5px 0 0}.credential{font-size:10px;color:#c8b6b4;margin:12px 0 0;letter-spacing:.5px}.ornament{display:flex;align-items:center;justify-content:center;gap:12px;margin:22px auto 0;color:var(--gold);font-size:13px}.ornament:before,.ornament:after{content:"";height:1px;width:52px;background:linear-gradient(90deg,transparent,var(--gold))}.ornament:after{transform:rotate(180deg)}
-.section-label{text-align:center;color:var(--gold-light);font-size:12px;letter-spacing:.8px;margin:27px 0 13px}.links{display:grid;gap:10px}.link{min-height:69px;display:flex;align-items:center;gap:14px;text-decoration:none;color:var(--cream);padding:12px 15px;border:1px solid var(--line);border-radius:15px;background:linear-gradient(105deg,#ffffff0b,#ffffff03);transition:.25s;position:relative;overflow:hidden}.link:hover{transform:translateY(-2px);border-color:var(--gold);background:#c8a66a10;box-shadow:0 10px 25px #10080d40}.ico{width:43px;height:43px;flex:0 0 43px;display:grid;place-items:center;border:1px solid #c8a66a80;border-radius:13px;color:var(--gold-light);background:#c8a66a0d}.ico svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}.copy{flex:1;text-align:right;min-width:0}.copy strong{display:block;font-size:14px;font-weight:600}.copy small{display:block;color:#c5b4b5;font-size:11px;margin-top:4px;overflow-wrap:anywhere}.chev{font-size:23px;color:var(--gold);padding-right:2px}.tools{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:12px}.tool{border:1px solid var(--line);border-radius:13px;min-height:58px;color:#e6d3b1;background:#ffffff06;font:inherit;font-size:10px;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;transition:.2s}.tool:hover{background:#c8a66a18;border-color:var(--gold)}.tool svg{width:19px;height:19px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}.note{margin-top:22px;padding:15px 17px;border-right:2px solid var(--gold);background:#ffffff06;border-radius:8px 13px 13px 8px;color:#d5c5c0;font-size:11px;line-height:2;text-align:right}.note b{color:var(--gold-light);font-weight:600}.socials{display:flex;justify-content:center;gap:12px}.social{width:44px;height:44px;display:grid;place-items:center;border:1px solid var(--line);border-radius:50%;color:var(--gold-light);text-decoration:none;font-size:18px;transition:.2s}.social:hover{background:#c8a66a18;transform:translateY(-3px)}footer{text-align:center;color:#a68f94;font-size:10px;margin-top:26px;line-height:2}
-.omega-credit{margin-top:20px!important;padding:14px 18px!important;border:1px solid #d8b66f!important;border-radius:16px;background:linear-gradient(135deg,rgba(200,166,106,.20),rgba(200,166,106,.06));box-shadow:0 0 0 1px rgba(234,215,167,.10),0 8px 24px rgba(0,0,0,.22);}
-.omega-credit a{display:flex!important;align-items:center;justify-content:center;gap:10px;color:#f3d99b!important;text-decoration:none;font-size:12px!important;letter-spacing:.3px!important;font-weight:600;padding:2px 0;text-shadow:0 0 14px rgba(234,215,167,.18)}
-.omega-credit strong{font-size:16px!important;letter-spacing:2.5px!important;color:#fff0c7}
-.omega-mark{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:9px;border:1px solid #ead7a7;background:rgba(200,166,106,.18);font-size:13px;color:#fff0c7}
-.omega-credit a:hover{filter:brightness(1.2);transform:translateY(-1px)}footer .rule{width:70px;height:1px;background:var(--gold);margin:0 auto 12px;opacity:.7}.toast{position:fixed;bottom:22px;left:50%;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:#f5ead8;color:#38202b;padding:10px 17px;border-radius:10px;font-size:12px;box-shadow:0 8px 30px #0005;transition:.25s;z-index:9;white-space:nowrap}.toast.show{opacity:1;transform:translate(-50%,0)}.modal{display:none;position:fixed;inset:0;background:#120b10d9;z-index:10;align-items:center;justify-content:center;padding:20px}.modal.show{display:flex}.modalbox{width:min(100%,350px);padding:25px;background:#34202a;border:1px solid var(--gold);border-radius:20px;text-align:center;position:relative}.modalbox h2{font-size:18px;color:var(--gold-light)}.modalbox p{font-size:12px;color:#e3d2cf;line-height:2}.close{position:absolute;left:12px;top:10px;background:none;border:0;color:white;font-size:25px;cursor:pointer}
-@media(max-width:380px){.name{font-size:26px}.hero{padding-inline:14px}.link{padding-inline:11px}.copy strong{font-size:13px}}
-@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto}}
-</style></head>
-<body><main class="wrap">
-<div class="topline"><div class="seal-mini"><span class="dot"></span><span data-fa="کارت معرفی حرفه‌ای" data-en="PROFESSIONAL PROFILE">کارت معرفی حرفه‌ای</span></div><div class="lang-switch"><button type="button" class="active" id="faBtn" onclick="setLang('fa')">فارسی</button><button type="button" id="enBtn" onclick="setLang('en')">English</button></div></div>
-<section class="hero" aria-label="معرفی وکیل"><div class="profile-wrap"><img id="profilePhoto" class="profile-photo" alt="تصویر پروفایل" src="profile.jpg" onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 120 120%22%3E%3Crect width=%22120%22 height=%22120%22 fill=%22%234b3039%22/%3E%3Ccircle cx=%2260%22 cy=%2243%22 r=%2222%22 fill=%22%23c8a66a%22 opacity=%22.8%22/%3E%3Cpath d=%22M20 115c2-28 18-42 40-42s38 14 40 42%22 fill=%22%23c8a66a%22 opacity=%22.8%22/%3E%3C/svg%3E"></div>
-<div class="emblem" aria-label="نشان نمادین عدالت" title="نشان نمادین عدالت"><svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="50" cy="50" r="43" opacity=".45"/><path d="M50 20v55M35 78h30M40 29h20M50 20l-4 6h8zM27 34h46M31 34 20 55h22L31 34zm38 0L58 55h22L69 34zM50 29 31 34M50 29l19 5M22 55c2 8 16 8 18 0M60 55c2 8 16 8 18 0"/><path d="M44 84h12" opacity=".7"/></svg></div>
-<p class="eyebrow" data-fa="وقار، اعتماد، همراهی حقوقی" data-en="DIGNITY · TRUST · LEGAL COUNSEL">وقار، اعتماد، همراهی حقوقی</p><h1 class="name"><span data-fa="آنا گلریز" data-en="Anna Golriz">آنا گلریز</span></h1><p class="name" style="font-size:17px;font-weight:400;color:var(--gold-light);margin-top:0" data-fa="Anna Golriz" data-en="Anna Golriz">Anna Golriz</p><p class="role" data-fa="مشاوره و همراهی حقوقی با اعتماد و اطمینان" data-en="Trusted guidance. Thoughtful legal support.">مشاوره و همراهی حقوقی با اعتماد و اطمینان</p><div class="ornament">✦</div></section>
-<h2 class="section-label" data-fa="در ارتباط باشیم" data-en="LET’S CONNECT">در ارتباط باشیم</h2>
-<section class="links">
-<a class="link" href="tel:+989923209981"><span class="ico"><svg viewBox="0 0 24 24"><path d="M21 16.5v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 10.2 18a19.4 19.4 0 0 1-6-6A19.8 19.8 0 0 1 1.5 3.2 2 2 0 0 1 3.5 1h3a2 2 0 0 1 2 1.7l.5 3a2 2 0 0 1-.6 1.8L6.5 9.4a16 16 0 0 0 6 6l1.9-1.9a2 2 0 0 1 1.8-.6l3 .5a2 2 0 0 1 1.8 2.1z"/></svg></span><span class="copy"><strong data-fa="شماره تلفن" data-en="Phone">شماره تلفن</strong><small dir="ltr">+98 992 320 9981</small></span><span class="chev">‹</span></a>
-<a class="link" href="https://wa.me/989923209981" target="_blank" rel="noopener"><span class="ico"><svg viewBox="0 0 24 24"><path d="M20.5 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20l1.2-4.7A8.5 8.5 0 1 1 20.5 11.5Z"/><path d="M8 8.1c.4 2.5 2.2 4.3 4.8 5.1l1.3-1.1 2 .9"/></svg></span><span class="copy"><strong data-fa="واتساپ" data-en="WhatsApp">واتساپ</strong><small data-fa="برای ارتباط مستقیم و هماهنگی" data-en="Direct message and appointments">برای ارتباط مستقیم و هماهنگی</small></span><span class="chev">‹</span></a>
-<a class="link" href="https://t.me/yourusername" target="_blank" rel="noopener"><span class="ico"><svg viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4zM22 2 11 13"/></svg></span><span class="copy"><strong data-fa="تلگرام" data-en="Telegram">تلگرام</strong><small data-fa="پیام در تلگرام" data-en="Message on Telegram">پیام در تلگرام</small></span><span class="chev">‹</span></a>
-<a class="link" href="mailto:lawyer@example.com"><span class="ico"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg></span><span class="copy"><strong data-fa="ایمیل" data-en="Email">ایمیل</strong><small>lawyer@example.com</small></span><span class="chev">‹</span></a>
+
+:root{
+  --wine:#351b27;
+  --wine2:#24131b;
+  --rose:#8f5d69;
+  --gold:#c8a66a;
+  --gold-light:#ead7a7;
+  --cream:#f7f0e7;
+  --muted:#c9b9b7;
+  --line:rgba(200,166,106,.35);
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+
+body{
+  margin:0;
+  min-height:100vh;
+  background:var(--wine2);
+  color:var(--cream);
+  font-family:Vazirmatn,Tahoma,sans-serif;
+  overflow-x:hidden;
+}
+
+body:before{
+  content:"";
+  position:fixed;
+  inset:0;
+  z-index:-2;
+  background:
+    radial-gradient(ellipse at 50% 0%,#67404b 0%,transparent 43%),
+    linear-gradient(145deg,#201119,#38202b 55%,#1d1118);
+}
+
+body:after{
+  content:"";
+  position:fixed;
+  inset:0;
+  z-index:-1;
+  pointer-events:none;
+  opacity:.13;
+  background-image:radial-gradient(var(--gold) .6px,transparent .6px);
+  background-size:18px 18px;
+}
+
+.wrap{
+  width:min(100% - 28px,470px);
+  margin:0 auto;
+  padding:28px 0 36px;
+}
+
+.topline{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  color:var(--gold-light);
+  font-size:10px;
+  letter-spacing:1.5px;
+  margin-bottom:25px;
+}
+
+.seal-mini{display:flex;align-items:center;gap:8px}
+
+.dot{
+  width:6px;
+  height:6px;
+  background:#c4aa78;
+  border-radius:50%;
+  box-shadow:0 0 9px #c4aa78;
+}
+
+.lang-switch{display:flex;gap:6px;align-items:center}
+
+.lang-switch button{
+  font:inherit;
+  font-size:10px;
+  color:var(--gold-light);
+  background:#ffffff08;
+  border:1px solid var(--line);
+  border-radius:20px;
+  padding:5px 10px;
+  cursor:pointer;
+}
+
+.lang-switch button.active{
+  background:var(--gold);
+  color:var(--wine2);
+}
+
+/* قاب دایره‌ای عکس پروفایل */
+.profile-wrap{
+  width:136px;
+  height:136px;
+  margin:2px auto 22px;
+  position:relative;
+  border-radius:50%;
+  padding:5px;
+  background:linear-gradient(
+    135deg,
+    #fff0c7 0%,
+    #c8a66a 28%,
+    #7b572c 52%,
+    #ead7a7 76%,
+    #c8a66a 100%
+  );
+  box-shadow:
+    0 0 0 2px #c8a66a55,
+    0 0 0 8px #c8a66a12,
+    0 0 32px #c8a66a30;
+}
+
+.profile-photo{
+  display:block;
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  object-fit:cover;
+  border:2px solid #38202b;
+  padding:3px;
+  background:#2b1821;
+  box-shadow:inset 0 0 0 1px var(--gold-light);
+}
+
+.hero{
+  text-align:center;
+  padding:24px 22px 28px;
+  border:1px solid var(--line);
+  border-radius:180px 180px 24px 24px;
+  background:linear-gradient(
+    160deg,
+    rgba(255,255,255,.065),
+    rgba(255,255,255,.015)
+  );
+  position:relative;
+  box-shadow:0 24px 70px #130b10aa,inset 0 0 35px #e7c98a08;
+  overflow:hidden;
+}
+
+.hero:before{
+  content:"";
+  position:absolute;
+  inset:9px;
+  border:1px solid rgba(200,166,106,.18);
+  border-radius:170px 170px 18px 18px;
+  pointer-events:none;
+}
+
+.emblem{
+  width:112px;
+  height:112px;
+  margin:2px auto 18px;
+  display:grid;
+  place-items:center;
+  border:1px solid var(--gold);
+  border-radius:50%;
+  background:radial-gradient(circle,#62404a,#2b1821 70%);
+  box-shadow:0 0 0 7px #c8a66a0b,0 0 35px #c8a66a12;
+  color:var(--gold-light);
+}
+
+.emblem svg{width:75px;height:75px}
+
+.eyebrow{
+  font-size:11px;
+  color:var(--gold-light);
+  letter-spacing:2px;
+  margin:0 0 12px;
+}
+
+.name{
+  font-size:30px;
+  line-height:1.5;
+  font-weight:700;
+  margin:0;
+  color:#fff8ef;
+}
+
+.name span{color:var(--gold-light)}
+
+.role{
+  font-size:14px;
+  color:#e2cfae;
+  margin:5px 0 0;
+}
+
+.ornament{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  margin:22px auto 0;
+  color:var(--gold);
+  font-size:13px;
+}
+
+.ornament:before,.ornament:after{
+  content:"";
+  height:1px;
+  width:52px;
+  background:linear-gradient(90deg,transparent,var(--gold));
+}
+
+.ornament:after{transform:rotate(180deg)}
+
+.section-label{
+  text-align:center;
+  color:var(--gold-light);
+  font-size:12px;
+  letter-spacing:.8px;
+  margin:27px 0 13px;
+}
+
+.links{display:grid;gap:10px}
+
+.link{
+  min-height:69px;
+  display:flex;
+  align-items:center;
+  gap:14px;
+  text-decoration:none;
+  color:var(--cream);
+  padding:12px 15px;
+  border:1px solid var(--line);
+  border-radius:15px;
+  background:linear-gradient(105deg,#ffffff0b,#ffffff03);
+  transition:.25s;
+  position:relative;
+  overflow:hidden;
+}
+
+.link:hover{
+  transform:translateY(-2px);
+  border-color:var(--gold);
+  background:#c8a66a10;
+  box-shadow:0 10px 25px #10080d40;
+}
+
+.ico{
+  width:43px;
+  height:43px;
+  flex:0 0 43px;
+  display:grid;
+  place-items:center;
+  border:1px solid #c8a66a80;
+  border-radius:13px;
+  color:var(--gold-light);
+  background:#c8a66a0d;
+}
+
+.ico svg{
+  width:22px;
+  height:22px;
+  fill:none;
+  stroke:currentColor;
+  stroke-width:1.6;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+
+.copy{flex:1;text-align:right;min-width:0}
+
+.copy strong{
+  display:block;
+  font-size:14px;
+  font-weight:600;
+}
+
+.copy small{
+  display:block;
+  color:#c5b4b5;
+  font-size:11px;
+  margin-top:4px;
+  overflow-wrap:anywhere;
+}
+
+.chev{font-size:23px;color:var(--gold);padding-right:2px}
+
+.tools{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:9px;
+  margin-top:12px;
+}
+
+.tool{
+  border:1px solid var(--line);
+  border-radius:13px;
+  min-height:58px;
+  color:#e6d3b1;
+  background:#ffffff06;
+  font:inherit;
+  font-size:10px;
+  cursor:pointer;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:5px;
+  transition:.2s;
+}
+
+.tool:hover{background:#c8a66a18;border-color:var(--gold)}
+
+.tool svg{
+  width:19px;
+  height:19px;
+  stroke:currentColor;
+  fill:none;
+  stroke-width:1.7;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+}
+
+.socials{display:flex;justify-content:center;gap:12px}
+
+.social{
+  width:44px;
+  height:44px;
+  display:grid;
+  place-items:center;
+  border:1px solid var(--line);
+  border-radius:50%;
+  color:var(--gold-light);
+  text-decoration:none;
+  font-size:18px;
+  transition:.2s;
+}
+
+.social:hover{background:#c8a66a18;transform:translateY(-3px)}
+
+footer{
+  text-align:center;
+  color:#a68f94;
+  font-size:10px;
+  margin-top:26px;
+  line-height:2;
+}
+
+.omega-credit{
+  margin-top:20px!important;
+  padding:14px 18px!important;
+  border:1px solid #d8b66f!important;
+  border-radius:16px;
+  background:linear-gradient(
+    135deg,
+    rgba(200,166,106,.20),
+    rgba(200,166,106,.06)
+  );
+  box-shadow:0 0 0 1px rgba(234,215,167,.10),0 8px 24px rgba(0,0,0,.22);
+}
+
+.omega-credit a{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  color:#f3d99b;
+  text-decoration:none;
+  font-size:12px;
+  letter-spacing:.3px;
+  font-weight:600;
+  padding:2px 0;
+  text-shadow:0 0 14px rgba(234,215,167,.18);
+}
+
+.omega-credit strong{
+  font-size:16px;
+  letter-spacing:2.5px;
+  color:#fff0c7;
+}
+
+.omega-mark{
+  display:inline-grid;
+  place-items:center;
+  width:28px;
+  height:28px;
+  border-radius:9px;
+  border:1px solid #ead7a7;
+  background:rgba(200,166,106,.18);
+  font-size:13px;
+  color:#fff0c7;
+}
+
+.omega-credit a:hover{filter:brightness(1.2);transform:translateY(-1px)}
+
+footer .rule{
+  width:70px;
+  height:1px;
+  background:var(--gold);
+  margin:0 auto 12px;
+  opacity:.7;
+}
+
+.toast{
+  position:fixed;
+  bottom:22px;
+  left:50%;
+  transform:translate(-50%,20px);
+  opacity:0;
+  pointer-events:none;
+  background:#f5ead8;
+  color:#38202b;
+  padding:10px 17px;
+  border-radius:10px;
+  font-size:12px;
+  box-shadow:0 8px 30px #0005;
+  transition:.25s;
+  z-index:9;
+  white-space:nowrap;
+}
+
+.toast.show{opacity:1;transform:translate(-50%,0)}
+
+.modal{
+  display:none;
+  position:fixed;
+  inset:0;
+  background:#120b10d9;
+  z-index:10;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+}
+
+.modal.show{display:flex}
+
+.modalbox{
+  width:min(100%,350px);
+  padding:25px;
+  background:#34202a;
+  border:1px solid var(--gold);
+  border-radius:20px;
+  text-align:center;
+  position:relative;
+}
+
+.modalbox h2{font-size:18px;color:var(--gold-light)}
+.modalbox p{font-size:12px;color:#e3d2cf;line-height:2}
+
+.close{
+  position:absolute;
+  left:12px;
+  top:10px;
+  background:none;
+  border:0;
+  color:white;
+  font-size:25px;
+  cursor:pointer;
+}
+
+@media(max-width:380px){
+  .name{font-size:26px}
+  .hero{padding-inline:14px}
+  .link{padding-inline:11px}
+  .copy strong{font-size:13px}
+}
+
+@media(prefers-reduced-motion:reduce){
+  *{transition:none!important;scroll-behavior:auto}
+}
+</style>
+</head>
+
+<body>
+<main class="wrap">
+
+<div class="topline">
+  <div class="seal-mini">
+    <span class="dot"></span>
+    <span data-fa="کارت معرفی حرفه‌ای" data-en="PROFESSIONAL PROFILE">کارت معرفی حرفه‌ای</span>
+  </div>
+
+  <div class="lang-switch">
+    <button type="button" class="active" id="faBtn" onclick="setLang('fa')">فارسی</button>
+    <button type="button" id="enBtn" onclick="setLang('en')">English</button>
+  </div>
+</div>
+
+<section class="hero" aria-label="معرفی آنا گلریز">
+
+  <div class="profile-wrap">
+    <img
+      id="profilePhoto"
+      class="profile-photo"
+      alt="تصویر پروفایل"
+      src="profile.jpg"
+      onerror="this.onerror=null;this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 120 120%22%3E%3Crect width=%22120%22 height=%22120%22 fill=%22%234b3039%22/%3E%3Ccircle cx=%2260%22 cy=%2243%22 r=%2222%22 fill=%22%23c8a66a%22 opacity=%22.8%22/%3E%3Cpath d=%22M20 115c2-28 18-42 40-42s38 14 40 42%22 fill=%22%23c8a66a%22 opacity=%22.8%22/%3E%3C/svg%3E"
+    >
+  </div>
+
+  <div class="emblem" aria-label="نشان نمادین عدالت" title="نشان نمادین عدالت">
+    <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="50" cy="50" r="43" opacity=".45"/>
+      <path d="M50 20v55M35 78h30M40 29h20M50 20l-4 6h8zM27 34h46M31 34 20 55h22L31 34zm38 0L58 55h22L69 34zM50 29 31 34M50 29l19 5M22 55c2 8 16 8 18 0M60 55c2 8 16 8 18 0"/>
+      <path d="M44 84h12" opacity=".7"/>
+    </svg>
+  </div>
+
+  <p class="eyebrow"
+     data-fa="وقار، اعتماد، همراهی حقوقی"
+     data-en="DIGNITY · TRUST · LEGAL COUNSEL">
+    وقار، اعتماد، همراهی حقوقی
+  </p>
+
+  <h1 class="name">
+    <span data-fa="آنا گلریز" data-en="Anna Golriz">آنا گلریز</span>
+  </h1>
+
+  <p class="name"
+     style="font-size:17px;font-weight:400;color:var(--gold-light);margin-top:0"
+     data-fa="Anna Golriz"
+     data-en="Anna Golriz">Anna Golriz</p>
+
+  <p class="role"
+     data-fa="مشاوره و همراهی حقوقی با اعتماد و اطمینان"
+     data-en="Trusted guidance. Thoughtful legal support.">
+    مشاوره و همراهی حقوقی با اعتماد و اطمینان
+  </p>
+
+  <div class="ornament">✦</div>
 </section>
-<div class="tools"><button class="tool" onclick="showQR()"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="6" height="6"/><rect x="15" y="3" width="6" height="6"/><rect x="3" y="15" width="6" height="6"/><path d="M15 15h3v3h-3zM21 15v2M18 21h3M12 3v3M12 12h2M12 18v3"/></svg><span data-fa="کد QR صفحه" data-en="Page QR code">کد QR صفحه</span></button><button class="tool" onclick="saveContact()"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M6 16c.8-2 5.2-2 6 0M14 9h4M14 13h4"/></svg><span data-fa="ذخیره مخاطب" data-en="Save contact">ذخیره مخاطب</span></button><button class="tool" onclick="sharePage()"><svg viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.7 10.6 6.6-4.2M8.7 13.4l6.6 4.2"/></svg><span data-fa="اشتراک‌گذاری کارت" data-en="Share card">اشتراک‌گذاری کارت</span></button></div>
 
-<h2 class="section-label" data-fa="شبکه‌های اجتماعی" data-en="SOCIAL MEDIA">شبکه‌های اجتماعی</h2><div class="socials"><a class="social" href="https://instagram.com/a.nn.a1373" target="_blank" rel="noopener" aria-label="Instagram">◎</a><a class="social" href="https://t.me/yourusername" target="_blank" rel="noopener" aria-label="Telegram">➤</a><a class="social" href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a></div>
-<footer><div class="rule"></div><div data-fa="عدالت، باوری برای امروز و تعهدی برای فردا" data-en="Justice for today. A commitment for tomorrow.">عدالت، باوری برای امروز و تعهدی برای فردا</div><div data-fa="با احترام، آماده همراهی حقوقی شما هستم." data-en="With respect, I am here to support your legal needs.">با احترام، آماده همراهی حقوقی شما هستم.</div><div class="omega-credit"><a href="https://omegawebb.github.io/OMEGA/" target="_blank" rel="noopener noreferrer" aria-label="Website created by OMEGA"><span class="omega-mark" aria-hidden="true">Ω</span><span data-fa="طراحی و توسعه توسط" data-en="Designed & developed by">طراحی و توسعه توسط</span><strong>OMEGA</strong><span aria-hidden="true">↗</span></a></div></footer>
-</main><div class="toast" id="toast"></div><div class="modal" id="modal" onclick="if(event.target===this)this.classList.remove('show')"><div class="modalbox" id="modalbox"><button class="close" onclick="document.getElementById('modal').classList.remove('show')">×</button><h2 id="modalTitle">ذخیره اطلاعات تماس</h2><p id="modalText">فایل مخاطب برای ذخیره در دفترچه تلفن آماده می‌شود.</p></div></div>
+<h2 class="section-label" data-fa="در ارتباط باشیم" data-en="LET’S CONNECT">در ارتباط باشیم</h2>
+
+<section class="links">
+
+  <a class="link" href="tel:+989923209981">
+    <span class="ico">
+      <svg viewBox="0 0 24 24">
+        <path d="M21 16.5v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 10.2 18a19.4 19.4 0 0 1-6-6A19.8 19.8 0 0 1 1.5 3.2 2 2 0 0 1 3.5 1h3a2 2 0 0 1 2 1.7l.5 3a2 2 0 0 1-.6 1.8L6.5 9.4a16 16 0 0 0 6 6l1.9-1.9a2 2 0 0 1 1.8-.6l3 .5a2 2 0 0 1 1.8 2.1z"/>
+      </svg>
+    </span>
+    <span class="copy">
+      <strong data-fa="شماره تلفن" data-en="Phone">شماره تلفن</strong>
+      <small dir="ltr">+98 992 320 9981</small>
+    </span>
+    <span class="chev">‹</span>
+  </a>
+
+  <a class="link" href="https://wa.me/989923209981" target="_blank" rel="noopener">
+    <span class="ico">
+      <svg viewBox="0 0 24 24">
+        <path d="M20.5 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20l1.2-4.7A8.5 8.5 0 1 1 20.5 11.5Z"/>
+        <path d="M8 8.1c.4 2.5 2.2 4.3 4.8 5.1l1.3-1.1 2 .9"/>
+      </svg>
+    </span>
+    <span class="copy">
+      <strong data-fa="واتساپ" data-en="WhatsApp">واتساپ</strong>
+      <small data-fa="برای ارتباط مستقیم و هماهنگی" data-en="Direct message and appointments">برای ارتباط مستقیم و هماهنگی</small>
+    </span>
+    <span class="chev">‹</span>
+  </a>
+
+  <a class="link" href="https://t.me/yourusername" target="_blank" rel="noopener">
+    <span class="ico">
+      <svg viewBox="0 0 24 24">
+        <path d="m22 2-7 20-4-9-9-4zM22 2 11 13"/>
+      </svg>
+    </span>
+    <span class="copy">
+      <strong data-fa="تلگرام" data-en="Telegram">تلگرام</strong>
+      <small data-fa="پیام در تلگرام" data-en="Message on Telegram">پیام در تلگرام</small>
+    </span>
+    <span class="chev">‹</span>
+  </a>
+
+  <a class="link" href="mailto:lawyer@example.com">
+    <span class="ico">
+      <svg viewBox="0 0 24 24">
+        <rect x="2" y="4" width="20" height="16" rx="2"/>
+        <path d="m22 6-10 7L2 6"/>
+      </svg>
+    </span>
+    <span class="copy">
+      <strong data-fa="ایمیل" data-en="Email">ایمیل</strong>
+      <small>lawyer@example.com</small>
+    </span>
+    <span class="chev">‹</span>
+  </a>
+
+</section>
+
+<div class="tools">
+
+  <button class="tool" onclick="showQR()">
+    <svg viewBox="0 0 24 24">
+      <rect x="3" y="3" width="6" height="6"/>
+      <rect x="15" y="3" width="6" height="6"/>
+      <rect x="3" y="15" width="6" height="6"/>
+      <path d="M15 15h3v3h-3zM21 15v2M18 21h3M12 3v3M12 12h2M12 18v3"/>
+    </svg>
+    <span data-fa="کد QR صفحه" data-en="Page QR code">کد QR صفحه</span>
+  </button>
+
+  <button class="tool" onclick="saveContact()">
+    <svg viewBox="0 0 24 24">
+      <rect x="3" y="4" width="18" height="16" rx="2"/>
+      <circle cx="9" cy="10" r="2"/>
+      <path d="M6 16c.8-2 5.2-2 6 0M14 9h4M14 13h4"/>
+    </svg>
+    <span data-fa="ذخیره مخاطب" data-en="Save contact">ذخیره مخاطب</span>
+  </button>
+
+  <button class="tool" onclick="sharePage()">
+    <svg viewBox="0 0 24 24">
+      <circle cx="18" cy="5" r="3"/>
+      <circle cx="6" cy="12" r="3"/>
+      <circle cx="18" cy="19" r="3"/>
+      <path d="m8.7 10.6 6.6-4.2M8.7 13.4l6.6 4.2"/>
+    </svg>
+    <span data-fa="اشتراک‌گذاری کارت" data-en="Share card">اشتراک‌گذاری کارت</span>
+  </button>
+
+</div>
+
+<h2 class="section-label" data-fa="شبکه‌های اجتماعی" data-en="SOCIAL MEDIA">شبکه‌های اجتماعی</h2>
+
+<div class="socials">
+  <a class="social" href="https://instagram.com/a.nn.a1373" target="_blank" rel="noopener" aria-label="Instagram">◎</a>
+  <a class="social" href="https://t.me/yourusername" target="_blank" rel="noopener" aria-label="Telegram">➤</a>
+  <a class="social" href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+</div>
+
+<footer>
+  <div class="rule"></div>
+
+  <div data-fa="عدالت، باوری برای امروز و تعهدی برای فردا"
+       data-en="Justice for today. A commitment for tomorrow.">
+    عدالت، باوری برای امروز و تعهدی برای فردا
+  </div>
+
+  <div data-fa="با احترام، آماده همراهی حقوقی شما هستم."
+       data-en="With respect, I am here to support your legal needs.">
+    با احترام، آماده همراهی حقوقی شما هستم.
+  </div>
+
+  <div class="omega-credit">
+    <a href="https://omegawebb.github.io/OMEGA/" target="_blank" rel="noopener noreferrer" aria-label="Website created by OMEGA">
+      <span class="omega-mark" aria-hidden="true">Ω</span>
+      <span data-fa="طراحی و توسعه توسط" data-en="Designed & developed by">طراحی و توسعه توسط</span>
+      <strong>OMEGA</strong>
+      <span aria-hidden="true">↗</span>
+    </a>
+  </div>
+</footer>
+
+</main>
+
+<div class="toast" id="toast"></div>
+
+<div class="modal" id="modal" onclick="if(event.target===this)this.classList.remove('show')">
+  <div class="modalbox" id="modalbox">
+    <button class="close" onclick="document.getElementById('modal').classList.remove('show')">×</button>
+    <h2 id="modalTitle">ذخیره اطلاعات تماس</h2>
+    <p id="modalText">فایل مخاطب برای ذخیره در دفترچه تلفن آماده می‌شود.</p>
+  </div>
+</div>
+
 <script>
-const phone='+989923209981';
+const phone = '+989923209981';
+const pageUrl = 'https://omegawebb.github.io/Golriz_io/';
 
-function setLang(lang){document.documentElement.lang=lang;document.documentElement.dir=lang==='fa'?'rtl':'ltr';document.getElementById('faBtn').classList.toggle('active',lang==='fa');document.getElementById('enBtn').classList.toggle('active',lang==='en');document.querySelectorAll('[data-fa][data-en]').forEach(el=>{el.textContent=el.dataset[lang]});document.querySelector('.eyebrow').style.letterSpacing=lang==='en'?'1.4px':'0';document.querySelector('.copy').style.textAlign=lang==='en'?'left':'right';}
-function toast(t){const el=document.getElementById('toast');el.textContent=t;el.classList.add('show');clearTimeout(window.tt);window.tt=setTimeout(()=>el.classList.remove('show'),2300)}
-async function copyPhone(){try{await navigator.clipboard.writeText(phone);toast(document.documentElement.lang==='fa'?'شماره تماس کپی شد ✓':'Phone number copied ✓')}catch(e){toast(document.documentElement.lang==='fa'?'شماره تماس: ۰۹۱۲ ۱۲۳ ۴۵۶۷':'Phone: +98 992 320 9981')}}
-function saveContact(){const v=`BEGIN:VCARD\nVERSION:3.0\nFN:Anna Golriz\nORG:OMEGA Legal Card\nTEL;TYPE=CELL:${phone}\nEMAIL:lawyer@example.com\nNOTE:شماره و مشخصات را پیش از انتشار ویرایش کنید\nEND:VCARD`;const blob=new Blob([v],{type:'text/vcard;charset=utf-8'});const u=URL.createObjectURL(blob);const a=document.createElement('a');a.href=u;a.download='Anna-Golriz.vcf';a.click();URL.revokeObjectURL(u);toast(document.documentElement.lang==='fa'?'فایل مخاطب آماده شد':'Contact file is ready')}
-async function sharePage(){try{if(navigator.share)await navigator.share({title:document.documentElement.lang==='fa'?'کارت دیجیتال':'Digital Business Card',text:document.documentElement.lang==='fa'?'اطلاعات تماس':'Contact information',url:location.href});else{await navigator.clipboard.writeText(location.href);toast(document.documentElement.lang==='fa'?'لینک کارت کپی شد':'Card link copied')}}catch(e){}}
-</script></body></html>
+function setLang(lang){
+  document.documentElement.lang = lang;
+  document.documentElement.dir = lang === 'fa' ? 'rtl' : 'ltr';
+
+  document.getElementById('faBtn').classList.toggle('active',lang === 'fa');
+  document.getElementById('enBtn').classList.toggle('active',lang === 'en');
+
+  document.querySelectorAll('[data-fa][data-en]').forEach(el=>{
+    el.textContent = el.dataset[lang];
+  });
+
+  document.querySelector('.eyebrow').style.letterSpacing = lang === 'en' ? '1.4px' : '0';
+  document.querySelector('.copy').style.textAlign = lang === 'en' ? 'left' : 'right';
+}
+
+function toast(message){
+  const el = document.getElementById('toast');
+  el.textContent = message;
+  el.classList.add('show');
+  clearTimeout(window.tt);
+  window.tt = setTimeout(()=>el.classList.remove('show'),2300);
+}
+
+function saveContact(){
+  const vcard = `BEGIN:VCARD
+VERSION:3.0
+FN:Anna Golriz
+N:Golriz;Anna;;;
+TEL;TYPE=CELL:${phone}
+URL:${pageUrl}
+END:VCARD`;
+
+  const blob = new Blob([vcard],{type:'text/vcard;charset=utf-8'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+
+  a.href = url;
+  a.download = 'Anna-Golriz.vcf';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+
+  setTimeout(()=>URL.revokeObjectURL(url),1000);
+
+  toast(document.documentElement.lang === 'fa'
+    ? 'فایل مخاطب آماده شد'
+    : 'Contact file is ready');
+}
+
+function showQR(){
+  const lang = document.documentElement.lang;
+  const title = document.getElementById('modalTitle');
+  const content = document.getElementById('modalText');
+
+  title.textContent = lang === 'fa'
+    ? 'کد QR کارت دیجیتال'
+    : 'Digital card QR code';
+
+  content.innerHTML = '';
+
+  const img = document.createElement('img');
+  img.alt = 'QR code for Anna Golriz digital card';
+  img.width = 220;
+  img.height = 220;
+  img.style.cssText =
+    'display:block;width:220px;height:220px;max-width:100%;margin:12px auto;background:#fff;padding:10px;border-radius:12px';
+
+  img.src =
+    'https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=' +
+    encodeURIComponent(pageUrl);
+
+  content.appendChild(img);
+
+  const link = document.createElement('a');
+  link.href = pageUrl;
+  link.target = '_blank';
+  link.rel = 'noopener';
+  link.textContent = pageUrl;
+  link.style.cssText =
+    'display:block;color:var(--gold-light);font-size:11px;overflow-wrap:anywhere;margin-top:12px';
+
+  content.appendChild(link);
+  document.getElementById('modal').classList.add('show');
+}
+
+async function sharePage(){
+  try{
+    if(navigator.share){
+      await navigator.share({
+        title:document.documentElement.lang === 'fa'
+          ? 'کارت دیجیتال آنا گلریز'
+          : 'Anna Golriz Digital Card',
+        text:document.documentElement.lang === 'fa'
+          ? 'اطلاعات تماس آنا گلریز'
+          : 'Anna Golriz contact card',
+        url:pageUrl
+      });
+    }else{
+      await navigator.clipboard.writeText(pageUrl);
+      toast(document.documentElement.lang === 'fa'
+        ? 'لینک کارت کپی شد'
+        : 'Card link copied');
+    }
+  }catch(e){}
+}
+</script>
+</body>
+</html>
